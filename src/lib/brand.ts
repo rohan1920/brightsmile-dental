@@ -164,8 +164,8 @@ export const gallery = [
 
 export const contact = {
   address: "123 Medical Plaza, Suite 400, Downtown District",
-  phone: "+1 (555) 013-2048",
-  email: "hello@brightsmile.dental",
+  phone: "03242364787",
+  email: "rajbutbaba@gmail.com",
   hours: "Mon–Sat: 9:00 AM – 8:00 PM",
 };
 
