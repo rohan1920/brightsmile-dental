@@ -24,9 +24,9 @@ export function Button({
         "focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[var(--color-ring)]",
         "disabled:opacity-60 disabled:pointer-events-none",
         variant === "primary" &&
-          "bg-[var(--color-primary)] text-white shadow-[var(--shadow-sm)] hover:bg-[#1e40af] hover:shadow-[var(--shadow)] active:bg-[#1e3a8a] transition-all",
+          "bg-[var(--color-primary)] text-white shadow-[var(--shadow-sm)] hover:bg-[#2563eb] hover:shadow-[var(--shadow)] active:bg-[#1d4ed8] transition-all",
         variant === "secondary" &&
-          "bg-white text-[var(--color-foreground)] border border-[var(--color-border)] shadow-[var(--shadow-sm)] hover:bg-[var(--color-surface)]",
+          "bg-white text-[var(--color-foreground)] border border-[var(--color-border)] shadow-[var(--shadow-sm)] hover:bg-[var(--color-surface)] hover:border-[var(--color-primary)]/20",
         variant === "ghost" &&
           "bg-transparent text-[var(--color-foreground)] hover:bg-black/[0.04]",
         size === "sm" && "h-9 px-4 text-sm",

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { services } from "@/lib/brand";
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/layout/SectionHeading";
@@ -6,7 +7,7 @@ import { Card } from "@/components/ui/Card";
 
 export function Services() {
   return (
-    <section id="services" className="py-14 sm:py-16">
+    <section id="services" className="bg-white py-20 sm:py-24">
       <Container className="grid gap-8">
         <MotionReveal>
           <SectionHeading
@@ -16,23 +17,32 @@ export function Services() {
           />
         </MotionReveal>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, idx) => (
             <MotionReveal key={s.title} delay={idx * 0.03}>
-              <Card className="group p-6 transition hover:-translate-y-1 hover:shadow-[var(--shadow)]">
-                <div className="grid h-12 w-12 place-items-center rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)]">
-                  <s.icon className="h-6 w-6 text-[var(--color-primary)]" />
+              <Card className="group overflow-hidden transition hover:shadow-[var(--shadow)]">
+                {/* Service Image */}
+                <div className="relative aspect-[4/3] overflow-hidden bg-[var(--color-surface)]">
+                  <Image
+                    src={s.image || `https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop&q=80&sig=${idx}`}
+                    alt={s.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
                 </div>
-                <div className="mt-4 text-base font-semibold tracking-tight">
-                  {s.title}
-                </div>
-                <p className="mt-2 text-sm leading-7 text-[color:var(--color-muted)]">
-                  {s.description}
-                </p>
-
-                <div className="mt-4 h-px w-full bg-[var(--color-border)]" />
-                <div className="mt-4 text-sm font-medium text-[color:var(--color-primary)]">
-                  Learn more <span className="transition group-hover:translate-x-0.5 inline-block">→</span>
+                
+                {/* Service Content */}
+                <div className="p-6">
+                  <div className="mb-3 grid h-10 w-10 place-items-center rounded-xl bg-[var(--color-surface)]">
+                    <s.icon className="h-5 w-5 text-[var(--color-primary)]" />
+                  </div>
+                  <div className="text-lg font-semibold tracking-tight">
+                    {s.title}
+                  </div>
+                  <p className="mt-2 text-sm leading-6 text-[color:var(--color-muted)]">
+                    {s.description}
+                  </p>
                 </div>
               </Card>
             </MotionReveal>

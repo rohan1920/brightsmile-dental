@@ -5,13 +5,13 @@ import { TestimonialsSlider } from "@/components/widgets/TestimonialsSlider";
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="py-14 sm:py-16">
+    <section id="testimonials" className="bg-[var(--color-surface)] py-20 sm:py-24">
       <Container className="grid gap-8">
         <MotionReveal>
           <SectionHeading
             eyebrow="Testimonials"
-            title="Realistic reviews that build instant confidence"
-            description="A polished slider with avatars, verified badges, star ratings, and smooth transitions."
+            title="What our patients say"
+            description="Real experiences from people who trust us with their smiles."
           />
         </MotionReveal>
         <MotionReveal delay={0.05}>

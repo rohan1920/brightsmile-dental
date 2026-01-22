@@ -57,7 +57,7 @@ export function Appointment() {
   const progress = step === 1 ? 0.33 : step === 2 ? 0.66 : 1;
 
   return (
-    <section id="appointment" className="py-14 sm:py-16">
+    <section id="appointment" className="bg-[var(--color-surface)] py-20 sm:py-24">
       <Container className="grid gap-8">
         <MotionReveal>
           <SectionHeading

@@ -33,47 +33,48 @@ export const trustBadges = [
 ] as const satisfies { icon: LucideIcon; label: string }[];
 
 export const stats = [
-  { label: "Patients Served", value: 12840, suffix: "+" },
-  { label: "Treatments Delivered", value: 34210, suffix: "+" },
+  { label: "Patients Served", value: 12000, suffix: "+" },
+  { label: "Treatments", value: 30000, suffix: "+" },
   { label: "Expert Dentists", value: 14, suffix: "" },
   { label: "Happy Smiles", value: 19000, suffix: "+" },
 ] as const;
 
 export const services = [
   {
-    icon: Smile,
-    title: "Teeth Cleaning",
-    description: "Gentle polishing + deep cleaning for a fresh, healthy smile.",
-  },
-  {
-    icon: Braces,
-    title: "Braces & Aligners",
-    description: "Personalized orthodontics with transparent progress tracking.",
-  },
-  {
     icon: Sparkles,
-    title: "Whitening",
-    description: "Safe, effective brightening with natural-looking results.",
-  },
-  {
-    icon: Syringe,
-    title: "Root Canal Therapy",
-    description: "Precise, pain-minimized care using modern techniques.",
+    title: "Teeth Whitening",
+    description: "Safe, professional whitening for a brighter smile.",
+    image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop&q=80",
   },
   {
     icon: CircleDot,
     title: "Dental Implants",
-    description: "Confident chewing and aesthetics with long-term stability.",
+    description: "Restore your smile with permanent, natural-looking implants.",
+    image: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop&q=80",
   },
   {
-    icon: Activity,
-    title: "Emergency Care",
-    description: "Fast triage and calming support when you need it most.",
+    icon: Syringe,
+    title: "Root Canal",
+    description: "Pain-free root canal therapy with modern techniques.",
+    image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=600&fit=crop&q=80",
+  },
+  {
+    icon: Braces,
+    title: "Braces & Aligners",
+    description: "Straighten your teeth with clear aligners or traditional braces.",
+    image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&h=600&fit=crop&q=80",
+  },
+  {
+    icon: Smile,
+    title: "Routine Checkups",
+    description: "Regular cleanings and preventive care for optimal oral health.",
+    image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop&q=80",
   },
 ] as const satisfies {
   icon: LucideIcon;
   title: string;
   description: string;
+  image: string;
 }[];
 
 export const doctors = [
@@ -108,28 +109,28 @@ export const testimonials = [
     name: "Mariam K.",
     verified: true,
     rating: 5,
-    avatar: "/images/avatars/av-mariam.svg",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&q=80",
     text: "The clinic feels like a premium startup product — super clean, calm, and organized. My whitening results were natural and stunning.",
   },
   {
     name: "Ahmad R.",
     verified: true,
     rating: 5,
-    avatar: "/images/avatars/av-ahmad.svg",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80",
     text: "The team explained everything clearly and the treatment was smooth. I loved the appointment flow and how reassuring the staff felt.",
   },
   {
     name: "Sara N.",
     verified: true,
     rating: 4,
-    avatar: "/images/avatars/av-sara.svg",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80",
     text: "Braces consultation was fast and professional. The plan was personalized, and I left feeling confident about the timeline and results.",
   },
   {
     name: "Yousef T.",
     verified: true,
     rating: 5,
-    avatar: "/images/avatars/av-yousef.svg",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&q=80",
     text: "Emergency visit handled perfectly. They made me feel safe and comfortable, and the outcome was better than I expected.",
   },
 ] as const;
@@ -137,27 +138,27 @@ export const testimonials = [
 export const gallery = [
   {
     id: "case-01",
-    title: "Whitening — Natural Bright",
-    before: "/images/gallery/whiten-before.svg",
-    after: "/images/gallery/whiten-after.svg",
+    title: "Modern Clinic Interior",
+    before: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop&q=80",
+    after: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&h=600&fit=crop&q=80",
   },
   {
     id: "case-02",
-    title: "Aligners — Smile Line",
-    before: "/images/gallery/align-before.svg",
-    after: "/images/gallery/align-after.svg",
+    title: "Treatment Room",
+    before: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop&q=80",
+    after: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=600&fit=crop&q=80",
   },
   {
     id: "case-03",
-    title: "Implant — Confidence",
-    before: "/images/gallery/implant-before.svg",
-    after: "/images/gallery/implant-after.svg",
+    title: "Dental Equipment",
+    before: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop&q=80",
+    after: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=600&fit=crop&q=80",
   },
   {
     id: "case-04",
-    title: "Cleaning — Fresh Finish",
-    before: "/images/gallery/clean-before.svg",
-    after: "/images/gallery/clean-after.svg",
+    title: "Patient Care",
+    before: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&h=600&fit=crop&q=80",
+    after: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop&q=80",
   },
 ] as const;
 

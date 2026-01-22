@@ -106,6 +106,7 @@ export function TestimonialsSlider() {
                   alt={`${t.name} avatar`}
                   width={44}
                   height={44}
+                  className="rounded-full"
                 />
               </div>
               <div className="leading-tight">
@@ -128,8 +129,7 @@ export function TestimonialsSlider() {
               “{t.text}”
             </p>
 
-            <div className="flex items-center justify-between text-xs text-[color:var(--color-muted-2)]">
-              <span>Swipe-style slider • Auto-plays</span>
+            <div className="flex items-center justify-end text-xs text-[color:var(--color-muted-2)]">
               <span>
                 {idx + 1} / {testimonials.length}
               </span>

@@ -14,7 +14,7 @@ const bullets = [
 
 export function About() {
   return (
-    <section id="about" className="py-14 sm:py-16">
+    <section id="about" className="bg-white py-20 sm:py-24">
       <Container className="grid gap-10 md:grid-cols-2 md:items-center">
         <MotionReveal>
           <div className="grid gap-6">
@@ -40,14 +40,14 @@ export function About() {
 
         <MotionReveal delay={0.05}>
           <Card className="overflow-hidden">
-            <div className="bg-gradient-to-br from-[rgba(30,58,138,0.10)] via-white to-[rgba(15,118,110,0.12)] p-6 sm:p-7">
+            <div className="p-6 sm:p-7">
               <div className="overflow-hidden rounded-2xl border border-[var(--color-border)] bg-white">
                 <Image
-                  src="/images/about-clinic.svg"
-                  alt="Clinic story illustration"
-                  width={900}
-                  height={700}
-                  className="h-auto w-full"
+                  src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&h=800&fit=crop&q=80"
+                  alt="Modern dental clinic interior"
+                  width={1200}
+                  height={800}
+                  className="h-auto w-full object-cover"
                 />
               </div>
 

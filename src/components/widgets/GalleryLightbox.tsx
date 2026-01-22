@@ -43,7 +43,7 @@ export function GalleryLightbox() {
                       alt={`${g.title} before`}
                       width={420}
                       height={420}
-                      className="h-auto w-full transition duration-300 group-hover:scale-[1.02]"
+                      className="h-auto w-full object-cover transition duration-300 group-hover:scale-[1.02]"
                     />
                   </div>
                   <div className="overflow-hidden rounded-xl border border-[var(--color-border)] bg-white">
@@ -52,7 +52,7 @@ export function GalleryLightbox() {
                       alt={`${g.title} after`}
                       width={420}
                       height={420}
-                      className="h-auto w-full transition duration-300 group-hover:scale-[1.02]"
+                      className="h-auto w-full object-cover transition duration-300 group-hover:scale-[1.02]"
                     />
                   </div>
                 </div>
@@ -105,29 +105,29 @@ export function GalleryLightbox() {
               <div className="grid gap-4 p-6 sm:grid-cols-2 sm:p-7">
                 <div className="grid gap-2">
                   <div className="text-xs font-semibold text-[color:var(--color-muted)]">
-                    Before
+                    View 1
                   </div>
                   <div className="overflow-hidden rounded-2xl border border-[var(--color-border)] bg-white">
                     <Image
                       src={active.before}
-                      alt={`${active.title} before`}
+                      alt={`${active.title} view 1`}
                       width={900}
                       height={900}
-                      className="h-auto w-full"
+                      className="h-auto w-full object-cover"
                     />
                   </div>
                 </div>
                 <div className="grid gap-2">
                   <div className="text-xs font-semibold text-[color:var(--color-muted)]">
-                    After
+                    View 2
                   </div>
                   <div className="overflow-hidden rounded-2xl border border-[var(--color-border)] bg-white">
                     <Image
                       src={active.after}
-                      alt={`${active.title} after`}
+                      alt={`${active.title} view 2`}
                       width={900}
                       height={900}
-                      className="h-auto w-full"
+                      className="h-auto w-full object-cover"
                     />
                   </div>
                 </div>

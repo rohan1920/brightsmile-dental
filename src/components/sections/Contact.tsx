@@ -10,7 +10,7 @@ import { Card } from "@/components/ui/Card";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-14 sm:py-16">
+    <section id="contact" className="bg-white py-20 sm:py-24">
       <Container className="grid gap-8">
         <MotionReveal>
           <SectionHeading
