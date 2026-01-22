@@ -1,4 +1,6 @@
-## BrightSmile Dental Care — Expo Showcase Website (UI Only)
+## BrightSmile Dental Care
+
+> Modern, premium dental clinic website with Apple/Stripe-inspired design — Expo Showcase Website (UI Only)
 
 A **high-quality, modern, responsive dental clinic website** built for a **College Expo / Exhibition**. This project focuses on **branding, UX polish, animations, and presentation** — with **no backend** and **offline-ready local assets**.
 
