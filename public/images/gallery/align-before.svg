@@ -1,0 +1,30 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="alignBeforeBg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="32" fill="url(#alignBeforeBg)"/>
+  
+  <!-- Before: Misaligned teeth -->
+  <g transform="translate(400, 300)">
+    <!-- Upper teeth (crooked) -->
+    <rect x="-110" y="-100" width="32" height="58" rx="7" fill="#E5E7EB" transform="rotate(-8 -110 -100)"/>
+    <rect x="-70" y="-105" width="32" height="58" rx="7" fill="#D1D5DB" transform="rotate(5 -70 -105)"/>
+    <rect x="-30" y="-100" width="32" height="58" rx="7" fill="#E5E7EB"/>
+    <rect x="10" y="-95" width="32" height="58" rx="7" fill="#D1D5DB" transform="rotate(-5 10 -95)"/>
+    <rect x="50" y="-100" width="32" height="58" rx="7" fill="#E5E7EB" transform="rotate(8 50 -100)"/>
+    <rect x="90" y="-105" width="32" height="58" rx="7" fill="#D1D5DB" transform="rotate(-3 90 -105)"/>
+    
+    <!-- Lower teeth (misaligned) -->
+    <rect x="-100" y="20" width="28" height="48" rx="6" fill="#E5E7EB" transform="rotate(6 -100 20)"/>
+    <rect x="-65" y="18" width="28" height="48" rx="6" fill="#D1D5DB" transform="rotate(-4 -65 18)"/>
+    <rect x="-30" y="22" width="28" height="48" rx="6" fill="#E5E7EB" transform="rotate(3 -30 22)"/>
+    <rect x="5" y="20" width="28" height="48" rx="6" fill="#D1D5DB"/>
+    <rect x="40" y="18" width="28" height="48" rx="6" fill="#E5E7EB" transform="rotate(-5 40 18)"/>
+    <rect x="75" y="22" width="28" height="48" rx="6" fill="#D1D5DB" transform="rotate(4 75 22)"/>
+  </g>
+  
+  <text x="400" y="550" text-anchor="middle" fill="#6B7280" font-family="system-ui" font-size="18" font-weight="600">Before</text>
+</svg>

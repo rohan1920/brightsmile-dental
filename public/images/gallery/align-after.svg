@@ -1,0 +1,39 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="alignAfterBg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0FDF4"/>
+      <stop offset="1" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <radialGradient id="alignShine" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F9FAFB" stop-opacity="0.7"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" rx="32" fill="url(#alignAfterBg)"/>
+  
+  <!-- After: Perfectly aligned teeth -->
+  <g transform="translate(400, 300)">
+    <!-- Upper teeth (straight and aligned) -->
+    <rect x="-110" y="-100" width="32" height="58" rx="7" fill="url(#alignShine)"/>
+    <rect x="-70" y="-100" width="32" height="58" rx="7" fill="url(#alignShine)"/>
+    <rect x="-30" y="-100" width="32" height="58" rx="7" fill="url(#alignShine)"/>
+    <rect x="10" y="-100" width="32" height="58" rx="7" fill="url(#alignShine)"/>
+    <rect x="50" y="-100" width="32" height="58" rx="7" fill="url(#alignShine)"/>
+    <rect x="90" y="-100" width="32" height="58" rx="7" fill="url(#alignShine)"/>
+    
+    <!-- Shine effects -->
+    <ellipse cx="-95" cy="-85" rx="6" ry="12" fill="white" opacity="0.6"/>
+    <ellipse cx="0" cy="-85" rx="7" ry="14" fill="white" opacity="0.7"/>
+    <ellipse cx="95" cy="-85" rx="6" ry="12" fill="white" opacity="0.6"/>
+    
+    <!-- Lower teeth (perfectly aligned) -->
+    <rect x="-100" y="20" width="28" height="48" rx="6" fill="url(#alignShine)"/>
+    <rect x="-65" y="20" width="28" height="48" rx="6" fill="url(#alignShine)"/>
+    <rect x="-30" y="20" width="28" height="48" rx="6" fill="url(#alignShine)"/>
+    <rect x="5" y="20" width="28" height="48" rx="6" fill="url(#alignShine)"/>
+    <rect x="40" y="20" width="28" height="48" rx="6" fill="url(#alignShine)"/>
+    <rect x="75" y="20" width="28" height="48" rx="6" fill="url(#alignShine)"/>
+  </g>
+  
+  <text x="400" y="550" text-anchor="middle" fill="#0F766E" font-family="system-ui" font-size="18" font-weight="600">After</text>
+</svg>

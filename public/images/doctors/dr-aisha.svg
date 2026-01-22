@@ -1,0 +1,40 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="drBg" x1="0" y1="0" x2="600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3A8A" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#0F766E" stop-opacity="0.16"/>
+    </linearGradient>
+    <radialGradient id="skinGrad" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" rx="48" fill="url(#drBg)"/>
+  
+  <!-- Professional portrait -->
+  <circle cx="300" cy="240" r="130" fill="url(#skinGrad)"/>
+  <circle cx="300" cy="240" r="120" fill="white" fill-opacity="0.95"/>
+  
+  <!-- Hair -->
+  <path d="M180 180c20-40 60-60 120-60s100 20 120 60c-10 30-40 50-120 50s-110-20-120-50Z" fill="#1E172A" fill-opacity="0.85"/>
+  
+  <!-- Face features -->
+  <ellipse cx="270" cy="230" rx="8" ry="10" fill="#1E3A8A" fill-opacity="0.25"/>
+  <ellipse cx="330" cy="230" rx="8" ry="10" fill="#1E3A8A" fill-opacity="0.25"/>
+  <path d="M260 260 Q300 280 340 260" stroke="#1E3A8A" stroke-opacity="0.20" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Professional attire -->
+  <path d="M200 520c30-120 100-180 100-180h0c0 0 70 60 100 180" fill="white" fill-opacity="0.95"/>
+  <rect x="240" y="360" width="120" height="160" rx="60" fill="#1E3A8A" fill-opacity="0.12"/>
+  
+  <!-- Medical coat -->
+  <path d="M220 380 L380 380 L375 520 L225 520 Z" fill="#E0F2FE" fill-opacity="0.40"/>
+  <rect x="280" y="400" width="40" height="100" rx="20" fill="white"/>
+  
+  <!-- Stethoscope -->
+  <circle cx="280" cy="420" r="10" fill="#1E3A8A" fill-opacity="0.30"/>
+  <path d="M280 420 Q300 440 320 420" stroke="#1E3A8A" stroke-opacity="0.35" stroke-width="4" fill="none"/>
+  
+  <!-- Professional smile -->
+  <path d="M250 280 Q300 300 350 280" stroke="#0F766E" stroke-opacity="0.25" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

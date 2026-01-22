@@ -1,0 +1,36 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beforeBg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="32" fill="url(#beforeBg)"/>
+  
+  <!-- Before: Less bright smile -->
+  <g transform="translate(400, 300)">
+    <!-- Upper teeth -->
+    <path d="M-120 -80 Q-100 -100 -60 -100 Q-20 -100 0 -100 Q20 -100 60 -100 Q100 -100 120 -80 L110 -40 Q100 -20 60 -20 Q20 -20 0 -20 Q-20 -20 -60 -20 Q-100 -20 -110 -40 Z" 
+          fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2"/>
+    
+    <!-- Individual teeth (darker/yellowish) -->
+    <rect x="-100" y="-100" width="35" height="60" rx="8" fill="#D1D5DB" opacity="0.8"/>
+    <rect x="-60" y="-100" width="35" height="60" rx="8" fill="#D1D5DB" opacity="0.85"/>
+    <rect x="-20" y="-100" width="35" height="60" rx="8" fill="#D1D5DB" opacity="0.9"/>
+    <rect x="20" y="-100" width="35" height="60" rx="8" fill="#D1D5DB" opacity="0.85"/>
+    <rect x="60" y="-100" width="35" height="60" rx="8" fill="#D1D5DB" opacity="0.8"/>
+    
+    <!-- Lower teeth -->
+    <path d="M-100 20 Q-60 40 -20 40 Q20 40 60 20 L50 60 Q40 80 0 80 Q-40 80 -50 60 Z" 
+          fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2"/>
+    
+    <rect x="-80" y="20" width="30" height="50" rx="6" fill="#D1D5DB" opacity="0.8"/>
+    <rect x="-45" y="20" width="30" height="50" rx="6" fill="#D1D5DB" opacity="0.85"/>
+    <rect x="-10" y="20" width="30" height="50" rx="6" fill="#D1D5DB" opacity="0.9"/>
+    <rect x="25" y="20" width="30" height="50" rx="6" fill="#D1D5DB" opacity="0.85"/>
+    <rect x="60" y="20" width="30" height="50" rx="6" fill="#D1D5DB" opacity="0.8"/>
+  </g>
+  
+  <!-- Label -->
+  <text x="400" y="550" text-anchor="middle" fill="#6B7280" font-family="system-ui" font-size="18" font-weight="600">Before</text>
+</svg>

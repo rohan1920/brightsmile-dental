@@ -1,0 +1,101 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.5" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="heroAccent" x1="200" y1="200" x2="1000" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3A8A" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0F766E" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="heroShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#0F172A" flood-opacity="0.15"/>
+    </filter>
+    <radialGradient id="toothGrad" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="40" fill="url(#heroBg)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="150" cy="150" r="120" fill="url(#heroAccent)" opacity="0.6"/>
+  <circle cx="1050" cy="750" r="140" fill="url(#heroAccent)" opacity="0.5"/>
+  <ellipse cx="950" cy="200" rx="80" ry="120" fill="#1E3A8A" fill-opacity="0.08"/>
+
+  <!-- Main dental clinic illustration -->
+  <g filter="url(#heroShadow)">
+    <!-- Modern dental chair -->
+    <rect x="180" y="320" width="480" height="420" rx="32" fill="white" stroke="#0F172A" stroke-opacity="0.12" stroke-width="2"/>
+    
+    <!-- Chair back -->
+    <rect x="200" y="340" width="440" height="180" rx="24" fill="#F8FAFC" stroke="#0F172A" stroke-opacity="0.08"/>
+    <rect x="220" y="360" width="400" height="140" rx="20" fill="white"/>
+    
+    <!-- Chair seat -->
+    <rect x="200" y="520" width="440" height="200" rx="28" fill="#F1F5F9" stroke="#0F172A" stroke-opacity="0.08"/>
+    
+    <!-- Dental equipment -->
+    <circle cx="320" cy="280" r="45" fill="#1E3A8A" fill-opacity="0.15"/>
+    <circle cx="320" cy="280" r="30" fill="white"/>
+    <circle cx="320" cy="280" r="18" fill="#1E3A8A" fill-opacity="0.25"/>
+    
+    <rect x="380" y="260" width="120" height="8" rx="4" fill="#0F172A" fill-opacity="0.15"/>
+    <rect x="380" y="275" width="100" height="6" rx="3" fill="#0F172A" fill-opacity="0.12"/>
+    
+    <!-- Dental light -->
+    <ellipse cx="520" cy="280" rx="60" ry="35" fill="#1E3A8A" fill-opacity="0.20"/>
+    <ellipse cx="520" cy="280" rx="45" ry="25" fill="white"/>
+    <circle cx="520" cy="280" r="20" fill="#0F766E" fill-opacity="0.30"/>
+    
+    <!-- Modern equipment panel -->
+    <rect x="240" y="380" width="360" height="100" rx="16" fill="#F8FAFC" stroke="#0F172A" stroke-opacity="0.10"/>
+    <rect x="260" y="400" width="80" height="60" rx="12" fill="white" stroke="#1E3A8A" stroke-opacity="0.20"/>
+    <rect x="360" y="400" width="80" height="60" rx="12" fill="white" stroke="#0F766E" stroke-opacity="0.20"/>
+    <rect x="460" y="400" width="80" height="60" rx="12" fill="white" stroke="#1E3A8A" stroke-opacity="0.20"/>
+    
+    <circle cx="300" cy="430" r="8" fill="#1E3A8A" fill-opacity="0.40"/>
+    <circle cx="400" cy="430" r="8" fill="#0F766E" fill-opacity="0.40"/>
+    <circle cx="500" cy="430" r="8" fill="#1E3A8A" fill-opacity="0.40"/>
+  </g>
+
+  <!-- Professional tooth illustration -->
+  <g filter="url(#heroShadow)" transform="translate(750, 200)">
+    <path d="M200 200c-50 0-90 40-90 90v80c0 60 40 120 90 120s90-60 90-120v-80c0-50-40-90-90-90Z" fill="url(#toothGrad)" stroke="#0F172A" stroke-opacity="0.12" stroke-width="2"/>
+    <path d="M110 320c20 0 40 15 40 45 0 50-20 95-40 120-20-25-40-70-40-120 0-30 20-45 40-45Z" fill="#E0F2FE"/>
+    <path d="M200 280c-15 0-30 12-30 30 0 40-10 75-30 95-20-20-30-55-30-95 0-18 15-30 30-30Z" fill="#BAE6FD"/>
+    
+    <!-- Shine effect -->
+    <ellipse cx="180" cy="280" rx="25" ry="40" fill="white" fill-opacity="0.60"/>
+    <ellipse cx="200" cy="320" rx="15" ry="25" fill="white" fill-opacity="0.40"/>
+  </g>
+
+  <!-- Modern UI elements -->
+  <g filter="url(#heroShadow)">
+    <rect x="780" y="480" width="340" height="240" rx="28" fill="white" stroke="#0F172A" stroke-opacity="0.10" stroke-width="2"/>
+    
+    <!-- Card header -->
+    <rect x="800" y="500" width="300" height="24" rx="12" fill="#F8FAFC"/>
+    <rect x="820" y="508" width="120" height="8" rx="4" fill="#1E3A8A" fill-opacity="0.25"/>
+    
+    <!-- Card content -->
+    <rect x="820" y="550" width="260" height="12" rx="6" fill="#0F172A" fill-opacity="0.10"/>
+    <rect x="820" y="570" width="220" height="12" rx="6" fill="#0F172A" fill-opacity="0.08"/>
+    <rect x="820" y="590" width="240" height="12" rx="6" fill="#0F172A" fill-opacity="0.08"/>
+    
+    <!-- Status indicators -->
+    <circle cx="840" cy="640" r="12" fill="#0F766E" fill-opacity="0.30"/>
+    <rect x="860" y="632" width="180" height="16" rx="8" fill="#F1F5F9"/>
+    
+    <circle cx="840" cy="680" r="12" fill="#1E3A8A" fill-opacity="0.30"/>
+    <rect x="860" y="672" width="200" height="16" rx="8" fill="#F1F5F9"/>
+  </g>
+
+  <!-- Decorative medical icons -->
+  <g opacity="0.15">
+    <path d="M950 120c-20 0-36 16-36 36s16 36 36 36 36-16 36-36-16-36-36-36Z" fill="#1E3A8A"/>
+    <path d="M950 140l-12 12 12 12 12-12-12-12Z" fill="white"/>
+  </g>
+</svg>
