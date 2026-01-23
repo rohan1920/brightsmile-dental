@@ -52,19 +52,51 @@ A **high-quality, modern, responsive dental clinic website** built for a **Colle
 **⚠️ Important:** Make sure you're inside the `brightsmile-dental` folder before running commands!
 
 ```bash
-# Step 1: Navigate into the project folder
+# Step 1: Clone the repository
+git clone https://github.com/rohan1920/brightsmile-dental.git
+
+# Step 2: Navigate into the project folder
 cd brightsmile-dental
 
-# Step 2: Install dependencies
+# Step 3: Install dependencies
 npm install
 
-# Step 3: Start development server
+# Step 4: Start development server
 npm run dev
 ```
 
 Then open `http://localhost:3000` in your browser.
 
-**Note:** If you see a Vite + React default page, you're running from the wrong directory. Make sure you're inside `brightsmile-dental/` folder.
+### ⚠️ Troubleshooting
+
+**Problem:** You see a "Vite + React" default page instead of the dental website.
+
+**Causes & Solutions:**
+
+1. **Wrong Directory:** You're running `npm run dev` from the wrong folder.
+   ```bash
+   # Check your current directory
+   pwd  # (Linux/Mac) or
+   cd   # (Windows - shows current path)
+   
+   # Make sure you see: .../brightsmile-dental
+   # If not, navigate there:
+   cd brightsmile-dental
+   ```
+
+2. **Dependencies Not Installed:** Run `npm install` inside `brightsmile-dental` folder.
+   ```bash
+   cd brightsmile-dental
+   npm install
+   npm run dev
+   ```
+
+3. **Wrong Port:** Make sure you're opening `http://localhost:3000` (Next.js default), not `http://localhost:5173` (Vite default).
+
+4. **Verify Project:** Check if `next.config.ts` exists in your current directory.
+   ```bash
+   ls next.config.ts  # Should show the file
+   ```
 
 ### Demo screenshots (placeholders)
 - `docs/screenshots/01-hero.png`
