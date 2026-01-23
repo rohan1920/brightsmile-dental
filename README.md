@@ -48,14 +48,23 @@ A **high-quality, modern, responsive dental clinic website** built for a **Colle
 - `public/images`: **offline-safe local SVG assets**
 
 ### Run locally
-From `brightsmile-dental/`:
+
+**⚠️ Important:** Make sure you're inside the `brightsmile-dental` folder before running commands!
 
 ```bash
+# Step 1: Navigate into the project folder
+cd brightsmile-dental
+
+# Step 2: Install dependencies
 npm install
+
+# Step 3: Start development server
 npm run dev
 ```
 
-Then open `http://localhost:3000`.
+Then open `http://localhost:3000` in your browser.
+
+**Note:** If you see a Vite + React default page, you're running from the wrong directory. Make sure you're inside `brightsmile-dental/` folder.
 
 ### Demo screenshots (placeholders)
 - `docs/screenshots/01-hero.png`
